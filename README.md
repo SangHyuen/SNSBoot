@@ -30,7 +30,7 @@
  6. [java -jar 'FileName'.jar] ->Start on mvn
 
 ## 기능
->>>>>>> fe504f4fecd946751f769f085fcf17b1056a7057
+
  * sign up
  * login
  * posting
@@ -40,7 +40,7 @@
 
 
 ## 개발환경
->>>>>>> fe504f4fecd946751f769f085fcf17b1056a7057
+
  * Java SE 1.8 ver
  
  * Tomcat Server 8.5 ver
