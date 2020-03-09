@@ -18,8 +18,8 @@ public class SnsConfig {
 	    public SqlSessionFactory sqlSessionFactory (DataSource dataSource) throws Exception {
 	        SqlSessionFactoryBean sqlSessionFactory = new SqlSessionFactoryBean();
 	        sqlSessionFactory.setDataSource(dataSource);
-	        sqlSessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mybatis/mappers/*.xml"));;
-	        sqlSessionFactory.setConfigLocation(new PathMatchingResourcePatternResolver().getResource("classpath:mybatis/model/modelConfig.xml"));
+	        sqlSessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mybatis/mapper/*.xml"));;
+	        sqlSessionFactory.setConfigLocation(new PathMatchingResourcePatternResolver().getResource("classpath:mybatis/mybatis-config.xml"));
 	        return sqlSessionFactory.getObject();
 	    }
 	    
