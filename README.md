@@ -17,6 +17,10 @@
 ## 사용방법
  1. repository링크 : <https://github.com/SangHyuen/SNSBoot>
  2. gitclon : https://github.com/SangHyuen/SNSBoot.git
+ 3. [jar cvf 'FileName'.jar -C 'DirectoryName'/ . ]->make jar
+ 4. [jar -xvf 'FileName'.jar] -> Decompression jar
+ 5. cmd->cd 'jar file Directory Route'
+ 6. [java -jar 'FileName'.jar] ->Start on mvn
 
 ## 기능
  * sign up
